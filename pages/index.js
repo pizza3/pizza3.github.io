@@ -1,4 +1,3 @@
-export default () => <div>Welcome</div>
 import { css } from 'emotion'
 import Head from 'next/head'
 const nav = css`

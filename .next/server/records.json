@@ -1,0 +1,51 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "external \"react\"": 0,
+      "external \"emotion\"": 1,
+      "external \"next/head\"": 2,
+      "multi ./pages/index.js": 3,
+      "../../Macintosh HD/pizza3.github.io/node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!../../Macintosh HD/pizza3.github.io/pages/index.js": 4,
+      "multi ../../Macintosh HD/pizza3.github.io/node_modules/next/dist/pages/_app.js": 5,
+      "../../Macintosh HD/pizza3.github.io/node_modules/next/dist/pages/_app.js": 6,
+      "external \"next/app\"": 7,
+      "multi ../../Macintosh HD/pizza3.github.io/node_modules/next/dist/pages/_error.js": 8,
+      "../../Macintosh HD/pizza3.github.io/node_modules/next/dist/pages/_error.js": 9,
+      "external \"next/error\"": 10,
+      "multi ../../Macintosh HD/pizza3.github.io/node_modules/next/dist/pages/_document.js": 11,
+      "../../Macintosh HD/pizza3.github.io/node_modules/next/dist/pages/_document.js": 12,
+      "external \"next/document\"": 13
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static/L9nW4ctgCTwG2K52Lp~rC/pages/index.js": 0,
+      "static/L9nW4ctgCTwG2K52Lp~rC/pages/_app.js": 1,
+      "static/L9nW4ctgCTwG2K52Lp~rC/pages/_error.js": 2,
+      "static/L9nW4ctgCTwG2K52Lp~rC/pages/_document.js": 3
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

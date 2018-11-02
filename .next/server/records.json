@@ -14,7 +14,14 @@
       "external \"next/error\"": 10,
       "multi ../../Macintosh HD/pizza3.github.io/node_modules/next/dist/pages/_document.js": 11,
       "../../Macintosh HD/pizza3.github.io/node_modules/next/dist/pages/_document.js": 12,
-      "external \"next/document\"": 13
+      "external \"next/document\"": 13,
+      "external \"next/link\"": 14,
+      "../../Macintosh HD/pizza3.github.io/node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!../../Macintosh HD/pizza3.github.io/layouts/main.js 8420da4b7ad0f0c90cd72e8615e42eb4": 15,
+      "multi ./pages/contact.js": 16,
+      "../../Macintosh HD/pizza3.github.io/node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!../../Macintosh HD/pizza3.github.io/pages/contact.js": 17,
+      "multi ./pages/work.js": 18,
+      "../../Macintosh HD/pizza3.github.io/node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!../../Macintosh HD/pizza3.github.io/pages/work.js": 19,
+      "external \"path\"": 20
     },
     "usedIds": {
       "0": 0,
@@ -30,7 +37,14 @@
       "10": 10,
       "11": 11,
       "12": 12,
-      "13": 13
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "18": 18,
+      "19": 19,
+      "20": 20
     }
   },
   "chunks": {
@@ -122,10 +136,24 @@
       "static/jFRck3lPzfotCjBP6FlgU/pages/index.js": 4,
       "static/jFRck3lPzfotCjBP6FlgU/pages/_app.js": 5,
       "static/jFRck3lPzfotCjBP6FlgU/pages/_error.js": 6,
-      "static/jFRck3lPzfotCjBP6FlgU/pages/_document.js": 7
+      "static/jFRck3lPzfotCjBP6FlgU/pages/_document.js": 7,
+      "static/fXatF_6vUEDwNP74qQNup/pages/contact.js": 0,
+      "static/fXatF_6vUEDwNP74qQNup/pages/index.js": 1,
+      "static/fXatF_6vUEDwNP74qQNup/pages/work.js": 2,
+      "static/fXatF_6vUEDwNP74qQNup/pages/_app.js": 3,
+      "static/fXatF_6vUEDwNP74qQNup/pages/_error.js": 8,
+      "static/fXatF_6vUEDwNP74qQNup/pages/_document.js": 9,
+      "static/AMAPVRAk3UEdDLcpV9OqR/pages/contact.js": 4,
+      "static/AMAPVRAk3UEdDLcpV9OqR/pages/index.js": 5,
+      "static/AMAPVRAk3UEdDLcpV9OqR/pages/work.js": 6,
+      "static/AMAPVRAk3UEdDLcpV9OqR/pages/_app.js": 7,
+      "static/AMAPVRAk3UEdDLcpV9OqR/pages/_error.js": 10,
+      "static/AMAPVRAk3UEdDLcpV9OqR/pages/_document.js": 11
     },
     "bySource": {},
     "usedIds": [
+      10,
+      11,
       4,
       5,
       6,

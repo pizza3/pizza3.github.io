@@ -18,7 +18,7 @@ class Contact extends Component{
             <div className={container}>
                 <div className={headContainer}>
                     <div className={contLeft}>
-                    <form>
+                    <form className={form}>
                         <input type='text' className={text} placeholder='NAME'/>
                         <input type='email' className={text} placeholder='EMAIL'/>
                         <textarea className={textArea} placeholder='MESSAGE'></textarea>
@@ -62,15 +62,32 @@ const contLeft = css`
     top: 50px;
     height: calc(100vh - 50px);
     padding-top:19vh;
+    z-index:10;
+    @media (max-width: 800px) {
+        width: 100%;
+        top: 0px;
+        height: 70vh;
+        padding-top: 122px;    
+        }
 `
 
 const contRight = css`
     position: relative;
-    float: left;
+    float: right;
     width: 50%;
     top: 50px;
     height: calc(100vh - 50px);
     padding-top:19vh;
+    z-index:-1;
+    @media (max-width: 800px) {
+        width: 100%;
+        top: 0px;
+        height: 30vh;
+        padding-top: 0vh;
+        overflow: hidden; 
+        padding-left: 3%;
+        padding-right: 3%;
+        }
 `
 
 const text = css`
@@ -80,6 +97,10 @@ const text = css`
     padding-left: 8px;
     border: 1px solid #D1D1D1;
     margin-bottom: 17px;
+    @media (max-width: 800px) {
+        width: 100%;
+    height: 46px;
+    }
 `
 
 const textArea = css`
@@ -90,6 +111,9 @@ const textArea = css`
     border: 1px solid #D1D1D1;
     margin-bottom: 17px;
     padding-top: 7px;
+    @media (max-width: 800px) {
+        width: 100%;
+    }
 `
 const button = css`
     position:relative;
@@ -141,6 +165,11 @@ const button = css`
         -webkit-transition: 0;
         transition: 0;
     }
+    @media (max-width: 800px) {
+        width: 100%;
+    height: 46px;
+
+    }
 
 ` 
 
@@ -150,7 +179,10 @@ const mailCont = css`
     width: 100%;
     height: 331px;
     border-left: 1px solid #d1d1d1;
-
+    @media (max-width: 800px) {
+        border-left:none;
+        border-top: 1px solid #d1d1d1;
+        }
 }
 `
 
@@ -173,6 +205,20 @@ const atag = css`
     width: 294px;
     height: 36px;
     text-align: center;
+    @media (max-width: 800px) {
+        float: left;
+        padding-top: 14px;
+        margin-top: 7vh;
+        width: 100%;
+        height: 46px;
+        }
+`
+
+const form =css`
+    @media (max-width: 800px) {
+        padding-left: 3%;
+    padding-right: 3%;
+    }
 `
 
 export default Contact;

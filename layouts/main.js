@@ -21,8 +21,8 @@ export default ({ children }) => (
                 }
 
                 ::selection {
-                    color: whitesmoke;
-                    background: #ff0036;                    
+                    color: #5f5f5f;
+                    background: #080808;                 
                 }
 
                 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */

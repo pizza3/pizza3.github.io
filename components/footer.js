@@ -4,9 +4,15 @@ const Footer =()=>{
     return(
         <div className={footer}>
             <div className={footerContainer}>
-                <img className={imgl} src="/static/codepen.svg" alt="my image" />
-                <img className={imgr} src="/static/twitter.svg" alt="my image" />
-                <img className={imgr} src="/static/github.svg" alt="my image" />
+                <a href="https://codepen.io/pizza3/" target="_blank">
+                    <img className={imgl} src="/static/codepen.svg" alt="my image" />
+                </a>
+                <a href="https://twitter.com/tpizza3" target="_blank">
+                    <img className={imgr} src="/static/twitter.svg" alt="my image" />
+                </a>
+                <a href="https://github.com/pizza3" target="_blank">
+                    <img className={imgr} src="/static/github.svg" alt="my image" />
+                </a>
             </div>
         </div>
     )

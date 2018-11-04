@@ -23,14 +23,14 @@ class Nav extends Component{
         const {show} = this.state ;
         return(
         <div className={nav}>
-            <Link href="/">
+            <Link prefetch href="/">
                 <div className={navHeader}>yugam dhuriya</div>
             </Link>            
             <div className={`${navSLide} ${show?open:close}`}>
-                <Link href="/contact">
+                <Link prefetch href="/contact">
                     <div className={navLink}>contact</div>
                 </Link>
-                <Link href="/work">
+                <Link prefetch href="/work">
                 <div className={navLink}>work</div>
                 </Link>
             </div>
@@ -44,7 +44,6 @@ const nav = css`
     position:fixed;
     width:100%;
     height: 70px;
-    background:#fff;
     top: 40px;
     z-index:101;
     @media (max-width: 800px) {

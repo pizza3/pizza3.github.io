@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -644,10 +644,10 @@ var _jsxFileName = "/Volumes/Macintosh HD/pizza3.github.io/layouts/main.js";
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/work.js":
+/*!***********************!*\
+  !*** ./pages/work.js ***!
+  \***********************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -655,14 +655,15 @@ var _jsxFileName = "/Volumes/Macintosh HD/pizza3.github.io/layouts/main.js";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var emotion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! emotion */ "emotion");
-/* harmony import */ var emotion__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(emotion__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _layouts_main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../layouts/main */ "./layouts/main.js");
-var _jsxFileName = "/Volumes/Macintosh HD/pizza3.github.io/pages/index.js";
-
+/* harmony import */ var _layouts_main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../layouts/main */ "./layouts/main.js");
+/* harmony import */ var emotion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! emotion */ "emotion");
+/* harmony import */ var emotion__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(emotion__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! path */ "path");
+/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(path__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "/Volumes/Macintosh HD/pizza3.github.io/pages/work.js";
 
 function _templateObject4() {
-  var data = _taggedTemplateLiteral(["\n    position: relative;\n    float: left;\n    width: 50%;\n    top: 50px;\n    height: calc(100vh - 50px);\n    padding-top: 35vh;\n    color: #B7B7B7;\n    font-size: 20px;\n    padding-left: 6%;\n    padding-right: 33px;\n    line-height: 24px;\n    @media (max-width: 800px) {\n        width: 100%;\n        top: 0px;\n        height: 50%;\n        padding-top: 0vh;\n        font-size: 21px;\n        padding-left: 12%;\n        padding-right: 12%;\n        text-align: center;\n        line-height: 30px;\n    }\n"]);
+  var data = _taggedTemplateLiteral(["\n    position:absolute;\n    width:100%;\n    height:400px;\n"]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -672,7 +673,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = _taggedTemplateLiteral(["\n    position: relative;\n    float: left;\n    width: 50%;\n    top: 50px;\n    height: calc(100vh - 50px);\n    padding-top: 19vh;\n    @media (max-width: 800px) {\n        width: 100%;\n        top: 0px;\n        height: 50vh;\n        padding-top: 0vh;  \n    }\n"]);
+  var data = _taggedTemplateLiteral(["\n    position:absolute;\n    width:646px;\n    height:400px;\n    background-size: cover;\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -682,7 +683,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = _taggedTemplateLiteral(["\n    max-width: 1000px;\n    display: block;\n    width: 95%;\n    margin: 0 auto;\n"]);
+  var data = _taggedTemplateLiteral(["\n    position:relative;\n    width:50%;\n    height: 400px;\n    margin-left:25%;\n    margin-top:calc(50vh - 200px);\n    background:#000;\n\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -692,7 +693,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n    position: relative;\n    width: 100%;\n    height: 100vh;\n"]);
+  var data = _taggedTemplateLiteral(["\n    position:relative;\n    width:100%;\n    height:100vh;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -703,60 +704,108 @@ function _templateObject() {
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 
-var container = Object(emotion__WEBPACK_IMPORTED_MODULE_1__["css"])(_templateObject());
-var headContainer = Object(emotion__WEBPACK_IMPORTED_MODULE_1__["css"])(_templateObject2());
-var contLeft = Object(emotion__WEBPACK_IMPORTED_MODULE_1__["css"])(_templateObject3());
-var contRight = Object(emotion__WEBPACK_IMPORTED_MODULE_1__["css"])(_templateObject4());
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_layouts_main__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: container,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: headContainer,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: contLeft,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: contRight,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62
-    },
-    __self: this
-  }, "Frontend developer From New Delhi, India Currently living in Chennai, making Stuff with react, node, threes, & Aframe. Interested in technologies such as AR/Vr, Want to become a creative developer."))));
-});
+
+
+
+
+var Work =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(Work, _Component);
+
+  function Work(props) {
+    var _this;
+
+    _classCallCheck(this, Work);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Work).call(this, props));
+    _this.state = {};
+    return _this;
+  }
+
+  _createClass(Work, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {}
+  }, {
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_layouts_main__WEBPACK_IMPORTED_MODULE_1__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: container,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: img,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: pro,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: imgg,
+        src: "./static/pro1.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        },
+        __self: this
+      })))));
+    }
+  }]);
+
+  return Work;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+var container = Object(emotion__WEBPACK_IMPORTED_MODULE_2__["css"])(_templateObject());
+var img = Object(emotion__WEBPACK_IMPORTED_MODULE_2__["css"])(_templateObject2());
+var pro = Object(emotion__WEBPACK_IMPORTED_MODULE_2__["css"])(_templateObject3());
+var imgg = Object(emotion__WEBPACK_IMPORTED_MODULE_2__["css"])(_templateObject4());
+/* harmony default export */ __webpack_exports__["default"] = (Work);
 
 /***/ }),
 
-/***/ 3:
-/*!******************************!*\
-  !*** multi ./pages/index.js ***!
-  \******************************/
+/***/ 4:
+/*!*****************************!*\
+  !*** multi ./pages/work.js ***!
+  \*****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! ./pages/work.js */"./pages/work.js");
 
 
 /***/ }),
@@ -794,6 +843,17 @@ module.exports = require("next/link");
 
 /***/ }),
 
+/***/ "path":
+/*!***********************!*\
+  !*** external "path" ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("path");
+
+/***/ }),
+
 /***/ "react":
 /*!************************!*\
   !*** external "react" ***!
@@ -806,4 +866,4 @@ module.exports = require("react");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=work.js.map

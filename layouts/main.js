@@ -8,16 +8,16 @@ export default ({ children }) => (
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <style>
             {`
+                 @font-face {
+                    font-family: 'BebasNeue';
+                    src: url('./static/BebasNeue-Regular.otf');
+                }
+    
                 *{
                     margin:0;
                     padding:0;
                     box-sizing:border-box;
                     font-family: 'BebasNeue';
-                }
-
-                @font-face {
-                    font-family: 'BebasNeue';
-                    src: url('./static/BebasNeue-Regular.otf');
                 }
 
                 ::selection {

@@ -31,7 +31,20 @@ export default ({ children }) => (
             `}
         </style>
     </Head>
-    <Global/>
+    <style dangerouslySetInnerHTML={{__html: `
+         @font-face {
+            font-family: 'BebasNeue';
+            src: url('./static/BebasNeue-Regular.otf');
+        }
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: 'BebasNeue';
+        }
+    `}}/>
+    {/* <Global/> */}
     <Nav />
     <Footer />
     { children }

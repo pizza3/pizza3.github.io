@@ -3,8 +3,8 @@ module.exports = {
     exportPathMap: async function (defaultPathMap) {
         return {
             '/': { page: '/' },
-            '/work': { page: '/work/work' },
-            '/contact': { page: '/contact/contact' },
+            '/work': { page: '/work' },
+            '/contact': { page: '/contact' },
         }
     },
     assetPrefix: !debug ? '/' : './'

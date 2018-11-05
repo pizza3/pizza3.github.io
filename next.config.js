@@ -1,3 +1,4 @@
+const debug = process.env.NODE_ENV !== 'production'
 module.exports = {
     exportPathMap: async function (defaultPathMap) {
         return {
@@ -6,5 +7,5 @@ module.exports = {
             '/contact': { page: '/contact' },
         }
     },
-    assetPrefix: './'
+    assetPrefix: !debug ? '/pizza3.github.io/' : ''
 }

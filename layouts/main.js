@@ -7,6 +7,19 @@ export default ({ children }) => (
     <Head>
         <title>Yugam Dhuriya</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <style dangerouslySetInnerHTML={{__html: `
+            @font-face {
+                font-family: 'BebasNeue';
+                src: url('./static/BebasNeue-Regular.otf');
+            }
+
+            *{
+                margin:0;
+                padding:0;
+                box-sizing:border-box;
+                font-family: 'BebasNeue';
+            }
+        `}}/>
         <style>
             {`
                 ::selection {
@@ -30,20 +43,8 @@ export default ({ children }) => (
                 }
             `}
         </style>
-    </Head>
-    <style dangerouslySetInnerHTML={{__html: `
-         @font-face {
-            font-family: 'BebasNeue';
-            src: url('./static/BebasNeue-Regular.otf');
-        }
 
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-            font-family: 'BebasNeue';
-        }
-    `}}/>
+    </Head>
     {/* <Global/> */}
     <Nav />
     <Footer />

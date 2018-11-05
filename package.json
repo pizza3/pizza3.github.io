@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "export":"next build && next export",
-    "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && mkdir -p out/contact/static && cp -R static/BebasNeue-Regular.otf out/contact/static/ && git add out/ && git commit -m \"Deploy Next.js to master\" && git subtree push --prefix out origin master"
+    "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && mkdir -p out/contact/static && mkdir -p out/work/static && cp -R static/BebasNeue-Regular.otf out/contact/static/ && cp -R static/BebasNeue-Regular.otf out/work/static/ && git add out/ && git commit -m \"Deploy Next.js to master\" && git subtree push --prefix out origin master"
   },
   "repository": {
     "type": "git",

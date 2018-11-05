@@ -5706,7 +5706,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Volumes/Macintosh HD/.Trashes/501/pizza3.github.io 2.05.47 PM/pizza3.github.io/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Volumes/Macintosh HD/pizza3.github.io/.next");
       return error;
     }
   };
@@ -17966,7 +17966,7 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Volumes/Macintosh HD/.Trashes/501/pizza3.github.io 2.05.47 PM/pizza3.github.io/node_modules/next/dist/client/next-dev */"./node_modules/next/dist/client/next-dev.js");
+module.exports = __webpack_require__(/*! /Volumes/Macintosh HD/pizza3.github.io/node_modules/next/dist/client/next-dev */"./node_modules/next/dist/client/next-dev.js");
 
 
 /***/ }),

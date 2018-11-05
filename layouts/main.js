@@ -1,6 +1,7 @@
 import Nav from '../components/nav'
 import Footer from '../components/footer'
 import Head from 'next/head';
+import Global from '../components/global';
 export default ({ children }) => (
   <div>
     <Head>
@@ -8,18 +9,6 @@ export default ({ children }) => (
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <style>
             {`
-                 @font-face {
-                    font-family: 'BebasNeue';
-                    src: url('./static/BebasNeue-Regular.otf');
-                }
-    
-                *{
-                    margin:0;
-                    padding:0;
-                    box-sizing:border-box;
-                    font-family: 'BebasNeue';
-                }
-
                 ::selection {
                     color: #5f5f5f;
                     background: #080808;                 
@@ -42,6 +31,7 @@ export default ({ children }) => (
             `}
         </style>
     </Head>
+    <Global/>
     <Nav />
     <Footer />
     { children }

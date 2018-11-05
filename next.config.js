@@ -3,9 +3,9 @@ module.exports = {
     exportPathMap: async function (defaultPathMap) {
         return {
             '/': { page: '/' },
-            '/work': { page: '/work' },
-            '/contact': { page: '/contact' },
+            '/work': { page: '/work/work' },
+            '/contact': { page: '/contact/contact' },
         }
     },
-    assetPrefix: !debug ? '/pizza3.github.io/' : ''
+    assetPrefix: !debug ? 'pizza3.github.io/' : './'
 }

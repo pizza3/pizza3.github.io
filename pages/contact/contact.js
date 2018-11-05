@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Page from '../layouts/main'
+import Page from '../../layouts/main'
 import Link from 'next/link'
 
 class Contact extends Component{
@@ -28,7 +28,7 @@ class Contact extends Component{
                         <div className={'mailCont'}>
                             <Link href="mailto:yugam.dhuriya@gmail.com">
                                 <div className={'atag'}>
-                                    <img src="/static/paperplane.svg" className={'mailPlane'} />
+                                    <img src="../../static/paperplane.svg" className={'mailPlane'} />
                                     <div>yugam.dhuriya@gmail.com</div>
                                 </div>
                             </Link>

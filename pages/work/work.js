@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Page from '../layouts/main';
+import Page from '../../layouts/main';
 
 class Work extends Component{
 
@@ -20,11 +20,11 @@ class Work extends Component{
                 <div className={'container'}>
                     <div className={'img'}>
                         <div className={'pro'}>
-                            <img className={'imgg'} src='./static/pro1.png'/>
+                            <img className={'imgg'} src='../../static/pro1.png'/>
                             <div className={'cont'}></div>
                         </div>
                         <div className={'pro'}>
-                            <img className={'imgg'} src='./static/pro1.png'/>
+                            <img className={'imgg'} src='../../static/pro1.png'/>
                             <div className={'cont'}></div>
                         </div>
                     </div>

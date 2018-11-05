@@ -605,7 +605,10 @@ var _jsxFileName = "/Volumes/Macintosh HD/pizza3.github.io/layouts/main.js";
       lineNumber: 10
     },
     __self: this
-  }, "\n                ::selection {\n                    color: #5f5f5f;\n                    background: #080808;                 \n                }\n\n                ::-webkit-input-placeholder { /* Chrome/Opera/Safari */\n                    color: #D5D5D5;\n                }\n\n                ::-moz-placeholder { /* Firefox 19+ */\n                    color: #D5D5D5;\n                }\n                :-ms-input-placeholder { /* IE 10+ */\n                    color: #D5D5D5;\n                }\n\n                :-moz-placeholder { /* Firefox 18- */\n                    color: #D5D5D5;\n                }\n            ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_global__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "\n                ::selection {\n                    color: #5f5f5f;\n                    background: #080808;                 \n                }\n\n                ::-webkit-input-placeholder { /* Chrome/Opera/Safari */\n                    color: #D5D5D5;\n                }\n\n                ::-moz-placeholder { /* Firefox 19+ */\n                    color: #D5D5D5;\n                }\n                :-ms-input-placeholder { /* IE 10+ */\n                    color: #D5D5D5;\n                }\n\n                :-moz-placeholder { /* Firefox 18- */\n                    color: #D5D5D5;\n                }\n            ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
+    dangerouslySetInnerHTML: {
+      __html: "\n         @font-face {\n            font-family: 'BebasNeue';\n            src: url('./static/BebasNeue-Regular.otf');\n        }\n\n        *{\n            margin:0;\n            padding:0;\n            box-sizing:border-box;\n            font-family: 'BebasNeue';\n        }\n    "
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34
@@ -614,13 +617,13 @@ var _jsxFileName = "/Volumes/Macintosh HD/pizza3.github.io/layouts/main.js";
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_nav__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 48
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 49
     },
     __self: this
   }), children);

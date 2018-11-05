@@ -21,7 +21,10 @@ class Work extends Component{
                     <div className={'img'}>
                         <div className={'pro'}>
                             <img className={'imgg'} src='../../static/pro1.png'/>
-                            <div className={'cont'}></div>
+                            <div className={'cont'}>
+                                <div className={'contTitle'}>React gui controller</div>
+                                <div className={'contDef'}>A graphical user interface for changing states in react. Inspired from Google's popular dat.GUI controller library. This library provides additional functionalities such as Ease curve editor, Draggable placement and Stylable component's. For styling this library uses Zeit styled-jsx.</div>
+                            </div>
                         </div>
                         <div className={'pro'}>
                             <img className={'imgg'} src='../../static/pro1.png'/>
@@ -74,7 +77,23 @@ class Work extends Component{
                         background: #292929;
                         right: -52px;
                         top: 121px;
+                        padding-right: 5%;
+                        padding-left: 5%;
+                        padding-top: 38px;
                         transition:0.3s;
+                    }
+
+                    .contTitle{
+                        color: #c6c6c6;
+                        text-align: center;
+                        font-size: 19px;
+                        margin-bottom: 22px;
+                    }
+
+                    .contDef{
+                        color: #878787;
+                        text-align: center;
+                        word-spacing: 7px;
                     }
 
                     @media (max-width: 800px) {
@@ -113,6 +132,9 @@ class Work extends Component{
                             right: 0;
                             margin-left: auto;
                             margin-right: auto;
+                            padding-right: 10%;
+                            padding-left: 10%;
+                            padding-top: 38px;
                         }
                     }
                 

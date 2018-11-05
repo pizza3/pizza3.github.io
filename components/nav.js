@@ -23,14 +23,14 @@ class Nav extends Component{
         return(
         <div className={'nav'}>
             <div className='cover'></div>
-            <Link href="/">
+            <Link prefetch href="/">
                 <div className={'navHeader'}>yugam dhuriya</div>
             </Link>            
             <div className={`${'navSLide'} ${show?'open':'close'}`}>
-                <Link href="/contact">
+                <Link prefetch href="/contact">
                     <div className={'navLink'}>contact</div>
                 </Link>
-                <Link href="/work">
+                <Link prefetch href="/work">
                 <div className={'navLink'}>work</div>
                 </Link>
             </div>

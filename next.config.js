@@ -7,5 +7,5 @@ module.exports = {
             '/contact': { page: '/contact/contact' },
         }
     },
-    assetPrefix: !debug ? 'pizza3.github.io/' : './'
+    assetPrefix: !debug ? '/pizza3.github.io/' : './'
 }

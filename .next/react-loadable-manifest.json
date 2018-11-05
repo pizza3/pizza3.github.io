@@ -255,7 +255,7 @@
       "publicPath": "static/chunks/commons.1ce2edeac38d1b3070c6.js"
     }
   ],
-  "../../layouts/main": [
+  "../layouts/main": [
     {
       "id": 32,
       "name": "./layouts/main.js",

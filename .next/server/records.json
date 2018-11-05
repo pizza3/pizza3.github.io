@@ -6,23 +6,23 @@
       "external \"styled-jsx/style\"": 2,
       "external \"next/link\"": 3,
       "external \"next/head\"": 4,
-      "../../../../../Macintosh HD/.Trashes/501/pizza3.github.io 2.05.47 PM/pizza3.github.io/node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!../../../../../Macintosh HD/.Trashes/501/pizza3.github.io 2.05.47 PM/pizza3.github.io/layouts/main.js bb679e3d08e804861a85fd1de99f1c15": 5,
+      "../../Macintosh HD/pizza3.github.io/node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!../../Macintosh HD/pizza3.github.io/layouts/main.js 8420da4b7ad0f0c90cd72e8615e42eb4": 5,
       "external \"three\"": 6,
       "multi ./pages/contact/contact.js": 7,
-      "../../../../../Macintosh HD/.Trashes/501/pizza3.github.io 2.05.47 PM/pizza3.github.io/node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!../../../../../Macintosh HD/.Trashes/501/pizza3.github.io 2.05.47 PM/pizza3.github.io/pages/contact/contact.js": 8,
+      "../../Macintosh HD/pizza3.github.io/node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!../../Macintosh HD/pizza3.github.io/pages/contact/contact.js": 8,
       "multi ./pages/index.js": 9,
       "multi ./pages/work/work.js": 10,
-      "../../../../../Macintosh HD/.Trashes/501/pizza3.github.io 2.05.47 PM/pizza3.github.io/node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!../../../../../Macintosh HD/.Trashes/501/pizza3.github.io 2.05.47 PM/pizza3.github.io/pages/work/work.js": 11,
-      "multi ../../../../../Macintosh HD/.Trashes/501/pizza3.github.io 2.05.47 PM/pizza3.github.io/node_modules/next/dist/pages/_app.js": 12,
-      "../../../../../Macintosh HD/.Trashes/501/pizza3.github.io 2.05.47 PM/pizza3.github.io/node_modules/next/dist/pages/_app.js": 13,
+      "../../Macintosh HD/pizza3.github.io/node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!../../Macintosh HD/pizza3.github.io/pages/work/work.js": 11,
+      "multi ../../Macintosh HD/pizza3.github.io/node_modules/next/dist/pages/_app.js": 12,
+      "../../Macintosh HD/pizza3.github.io/node_modules/next/dist/pages/_app.js": 13,
       "external \"next/app\"": 14,
-      "multi ../../../../../Macintosh HD/.Trashes/501/pizza3.github.io 2.05.47 PM/pizza3.github.io/node_modules/next/dist/pages/_error.js": 15,
-      "../../../../../Macintosh HD/.Trashes/501/pizza3.github.io 2.05.47 PM/pizza3.github.io/node_modules/next/dist/pages/_error.js": 16,
+      "multi ../../Macintosh HD/pizza3.github.io/node_modules/next/dist/pages/_error.js": 15,
+      "../../Macintosh HD/pizza3.github.io/node_modules/next/dist/pages/_error.js": 16,
       "external \"next/error\"": 17,
-      "multi ../../../../../Macintosh HD/.Trashes/501/pizza3.github.io 2.05.47 PM/pizza3.github.io/node_modules/next/dist/pages/_document.js": 18,
-      "../../../../../Macintosh HD/.Trashes/501/pizza3.github.io 2.05.47 PM/pizza3.github.io/node_modules/next/dist/pages/_document.js": 19,
+      "multi ../../Macintosh HD/pizza3.github.io/node_modules/next/dist/pages/_document.js": 18,
+      "../../Macintosh HD/pizza3.github.io/node_modules/next/dist/pages/_document.js": 19,
       "external \"next/document\"": 20,
-      "../../../../../Macintosh HD/.Trashes/501/pizza3.github.io 2.05.47 PM/pizza3.github.io/node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!../../../../../Macintosh HD/.Trashes/501/pizza3.github.io 2.05.47 PM/pizza3.github.io/pages/index.js 92b0665cccf32139ec7d34e57cf745ef": 21
+      "../../Macintosh HD/pizza3.github.io/node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!../../Macintosh HD/pizza3.github.io/pages/index.js 39b54623245401dc3eebeda2a98147a5": 21
     },
     "usedIds": {
       "0": 0,
@@ -51,27 +51,21 @@
   },
   "chunks": {
     "byName": {
-      "static/~L586BbLPSG3ldFwQP3iB/pages/contact/contact.js": 0,
-      "static/~L586BbLPSG3ldFwQP3iB/pages/index.js": 1,
-      "static/~L586BbLPSG3ldFwQP3iB/pages/work/work.js": 2,
-      "static/~L586BbLPSG3ldFwQP3iB/pages/_app.js": 3,
-      "static/~L586BbLPSG3ldFwQP3iB/pages/_error.js": 4,
-      "static/~L586BbLPSG3ldFwQP3iB/pages/_document.js": 5,
-      "static/S514lXbbgfpB~1r3HsMB3/pages/contact/contact.js": 6,
-      "static/S514lXbbgfpB~1r3HsMB3/pages/index.js": 7,
-      "static/S514lXbbgfpB~1r3HsMB3/pages/work/work.js": 8,
-      "static/S514lXbbgfpB~1r3HsMB3/pages/_app.js": 9,
-      "static/S514lXbbgfpB~1r3HsMB3/pages/_error.js": 10,
-      "static/S514lXbbgfpB~1r3HsMB3/pages/_document.js": 11
+      "static/~rNfoYsVSB8o~mZSddOvY/pages/contact/contact.js": 0,
+      "static/~rNfoYsVSB8o~mZSddOvY/pages/index.js": 1,
+      "static/~rNfoYsVSB8o~mZSddOvY/pages/work/work.js": 2,
+      "static/~rNfoYsVSB8o~mZSddOvY/pages/_app.js": 3,
+      "static/~rNfoYsVSB8o~mZSddOvY/pages/_error.js": 4,
+      "static/~rNfoYsVSB8o~mZSddOvY/pages/_document.js": 5
     },
     "bySource": {},
     "usedIds": [
-      10,
-      11,
-      6,
-      7,
-      8,
-      9
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
     ]
   }
 }

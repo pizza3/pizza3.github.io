@@ -26,12 +26,12 @@ class Contact extends Component{
                     </div>
                     <div className={'contRight'}>
                         <div className={'mailCont'}>
-                            <Link href="mailto:yugam.dhuriya@gmail.com">
+                            <a href="mailto:yugam.dhuriya@gmail.com">
                                 <div className={'atag'}>
                                     <img src="../../static/paperplane.svg" className={'mailPlane'} />
                                     <div>yugam.dhuriya@gmail.com</div>
                                 </div>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -98,24 +98,22 @@ class Contact extends Component{
                         font-size: 20px;
                         transition:0.5s;
                         cursor:pointer;
+                        background-blend-mode: screen;
                     }
 
                     .button:hover{
-                        color: #232931;
-                        fill: #ffffff;
-                        stroke: #ffffff;
+                        color: #ffffff;
                     }
                 
                     .button::before,
                     ::after {
                         content: "";
-                        background: #e4d183;
+                        background: #000;
                         position: absolute;
                         top: 0%;
                         height: 100%;
                         width: 0;
                         color: #ffffff;
-                        background-blend-mode: screen;
                         z-index: -1;
                     }
                 

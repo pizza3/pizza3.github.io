@@ -19,6 +19,11 @@ export default ({ children }) => (
                 box-sizing:border-box;
                 font-family: 'BebasNeue';
             }
+
+            :focus {
+                outline-color: transparent;
+                outline-style: none;
+            }
         `}}/>
         <style>
             {`

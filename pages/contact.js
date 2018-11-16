@@ -79,6 +79,10 @@ class Contact extends Component{
                         margin-bottom: 17px;
                     }
 
+                    .text:focus{
+                        border:1px solid #000;
+                    }
+
                     .textArea{
                         width: 80%;
                         height: 170px;
@@ -87,6 +91,10 @@ class Contact extends Component{
                         border: 1px solid #D1D1D1;
                         margin-bottom: 17px;
                         padding-top: 7px;
+                    }
+
+                    .textArea:focus{
+                        border:1px solid #000;
                     }
 
                     .button{

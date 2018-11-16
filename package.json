@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export":"next build && next export",
+    "export": "next build && next export",
     "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && mkdir -p out/contact/static && mkdir -p out/work/static && cp -R static/BebasNeue-Regular.otf out/contact/static/ && cp -R static/BebasNeue-Regular.otf out/work/static/ && git add out/ && git commit -m \"Deploy Next.js to master\" && git subtree push --prefix out origin master"
   },
   "repository": {
@@ -22,9 +22,11 @@
   "homepage": "https://github.com/pizza3/pizza3.github.io#readme",
   "dependencies": {
     "emotion": "^9.2.12",
+    "gsap": "^2.0.2",
     "next": "^7.0.2",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
+    "simplex-noise": "^2.4.0",
     "three": "^0.98.0"
   }
 }

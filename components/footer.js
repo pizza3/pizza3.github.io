@@ -56,9 +56,9 @@ const Footer =()=>{
                     .cover{
                         width:100%;
                         height:100%;
-                        background:#fff;
+                        background:rgba(255,255,255,0.7);
+                        backdrop-filter:saturate(180%) blur(20px);
                         z-index:-1;
-                        opacity: 0.9;
                     }
                 }
                 `}

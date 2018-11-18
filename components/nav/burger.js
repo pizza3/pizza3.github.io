@@ -45,12 +45,12 @@ const men = css`
     @media (max-width: 800px) {
         position: absolute;
         visibility:visible;  
-        top: 24px;
+        top: 17px;
         right: 5%;
         width: 40px;
         height: 40px;
         border: none;
-        background: #fff;
+        background: transparent;
     }
 `
 

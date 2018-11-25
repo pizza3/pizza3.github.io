@@ -20,15 +20,18 @@ class Work extends Component{
                 <div className={'container'}>
                     <div className={'img'}>
                         <div className={'pro'}>
-                            <img className={'imgg'} src='../../static/pro1.png'/>
+                            <img className={'imgg'} src='../../static/pro1.jpg'/>
                             <div className={'cont'}>
                                 <div className={'contTitle'}>React gui controller</div>
                                 <div className={'contDef'}>A graphical user interface for changing states in react. Inspired from Google's popular dat.GUI controller library. This library provides additional functionalities such as Ease curve editor, Draggable placement and Stylable component's. For styling this library uses Zeit styled-jsx.</div>
                             </div>
                         </div>
                         <div className={'pro'}>
-                            <img className={'imgg'} src='../../static/pro1.png'/>
-                            <div className={'cont'}></div>
+                            <img className={'imgg'} src='../../static/pro2.jpg'/>
+                            <div className={'cont'}>
+                                <div className={'contTitle'}>React video pop</div>
+                                <div className={'contDef'}>Floating video component made in react , which is draggable across any coordinate of the screen, consist of basic controls like mute, play etc and resizable too across any corner of the window. The working is inspired from the MacOS picture to picture feature.</div>
+                            </div>
                         </div>
                     </div>
                     <style jsx>

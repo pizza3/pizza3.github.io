@@ -1,0 +1,75 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "external \"react\"": 0,
+      "external \"emotion\"": 1,
+      "external \"styled-jsx/style\"": 2,
+      "external \"next/link\"": 3,
+      "external \"three\"": 4,
+      "external \"next/head\"": 5,
+      "../../Macintosh HD/pizza3.github.io/node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!../../Macintosh HD/pizza3.github.io/layouts/main.js 4f0ac01907a4bbff33c74b6bd2e7b4b7": 6,
+      "external \"gsap\"": 7,
+      "external \"simplex-noise\"": 8,
+      "multi ./pages/contact.js": 9,
+      "../../Macintosh HD/pizza3.github.io/node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!../../Macintosh HD/pizza3.github.io/pages/contact.js": 10,
+      "multi ./pages/index.js": 11,
+      "multi ./pages/work.js": 12,
+      "../../Macintosh HD/pizza3.github.io/node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!../../Macintosh HD/pizza3.github.io/pages/work.js": 13,
+      "multi ../../Macintosh HD/pizza3.github.io/node_modules/next/dist/pages/_app.js": 14,
+      "../../Macintosh HD/pizza3.github.io/node_modules/next/dist/pages/_app.js": 15,
+      "external \"next/app\"": 16,
+      "multi ../../Macintosh HD/pizza3.github.io/node_modules/next/dist/pages/_error.js": 17,
+      "../../Macintosh HD/pizza3.github.io/node_modules/next/dist/pages/_error.js": 18,
+      "external \"next/error\"": 19,
+      "multi ../../Macintosh HD/pizza3.github.io/node_modules/next/dist/pages/_document.js": 20,
+      "../../Macintosh HD/pizza3.github.io/node_modules/next/dist/pages/_document.js": 21,
+      "external \"next/document\"": 22,
+      "../../Macintosh HD/pizza3.github.io/node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!../../Macintosh HD/pizza3.github.io/pages/index.js 39b54623245401dc3eebeda2a98147a5": 23
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "18": 18,
+      "19": 19,
+      "20": 20,
+      "21": 21,
+      "22": 22,
+      "23": 23
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static/4r9Cj8RTSms4ZytvFc4pz/pages/contact.js": 0,
+      "static/4r9Cj8RTSms4ZytvFc4pz/pages/index.js": 1,
+      "static/4r9Cj8RTSms4ZytvFc4pz/pages/work.js": 2,
+      "static/4r9Cj8RTSms4ZytvFc4pz/pages/_app.js": 3,
+      "static/4r9Cj8RTSms4ZytvFc4pz/pages/_error.js": 4,
+      "static/4r9Cj8RTSms4ZytvFc4pz/pages/_document.js": 5
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

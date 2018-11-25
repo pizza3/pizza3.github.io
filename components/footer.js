@@ -7,7 +7,7 @@ const Footer =()=>{
                 <a href="https://codepen.io/pizza3/" target="_blank">
                     <img className={'imgl'} src="/static/codepen.svg"  />
                 </a>
-                <a href="https://twitter.com/tpizza3" target="_blank">
+                <a href="https://twitter.com/yugam_" target="_blank">
                     <img className={'imgr'} src="/static/twitter.svg"  />
                 </a>
                 <a href="https://github.com/pizza3" target="_blank">

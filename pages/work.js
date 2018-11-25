@@ -9,11 +9,7 @@ class Work extends Component{
 
         }
     }
-
-    componentDidMount(){
-
-    }
-
+    
     render(){
         return(
             <Page>

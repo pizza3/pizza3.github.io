@@ -60,8 +60,8 @@ export default () => (
                         width: 100%;
                         top: 0px;
                         height: 50%;
-                        padding-top: 0vh;
-                        font-size: 21px;
+                        padding-top: 14vh;
+                        font-size: 20px;
                         padding-left: 12%;
                         padding-right: 12%;
                         text-align: center;
@@ -70,8 +70,8 @@ export default () => (
                     .contLeft{
                         width: 100%;
                         top: 0px;
-                        height: 50vh;
-                        padding-top: 0vh;  
+                        height: 300px;
+                        padding-top: 70px;  
                     }                 
                 }
             `}

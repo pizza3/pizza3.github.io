@@ -30,8 +30,14 @@ class SceneOne extends Component{
         this.ts=1;
         this.plane=null;
         this.scene = new THREE.Scene();
-        this.width = 400;
-        this.height =  400;
+        if(window.innerWidth <= 800){
+            this.width = 300;
+            this.height =  300;
+        }
+        else{
+            this.width = 400;
+            this.height =  400;
+        }
         this.renderer = new THREE.WebGLRenderer();
         this.renderer.setClearColor(0xffffff);
         this.renderer.setPixelRatio(window.devicePixelRatio);
@@ -54,13 +60,18 @@ class SceneOne extends Component{
             function (image) {
               let canvasWidth = image.width;
               let canvasHeight = image.height;
-              let geometry = new THREE.PlaneGeometry(650, 400, canvasWidth, 10);
+              let geometry;
+                if(window.innerWidth <= 800){
+                    geometry = new THREE.PlaneGeometry(250, 450, 100, 30);
+                }
+                else{
+                    geometry = new THREE.PlaneGeometry(640, 400, canvasWidth, 10);
+                }
               let canvas = document.getElementById('image');
               canvas.height = canvasHeight;
               canvas.width = canvasWidth;
               let context = canvas.getContext('2d');
               context.drawImage(image, 0, 0, canvasWidth + 1, canvasHeight + 1);
-              let pixels = context.getImageData(0, 0, canvasWidth + 1, canvasHeight + 1).data;
               let canvasTexture = new THREE.Texture(canvas);
               canvasTexture.minFilter = THREE.LinearFilter
               let meshMaterial = new THREE.MeshBasicMaterial({
@@ -73,8 +84,8 @@ class SceneOne extends Component{
               this.plane = new THREE.Mesh(geometry, meshMaterial);
               this.scene.add(this.plane);
             //   this.plane.rotation.y=Math.PI/80;
-              this.plane.rotation.y=Math.PI/4;
-              this.plane.rotation.x=Math.PI/4;
+              this.plane.rotation.y = Math.PI/4;
+              this.plane.rotation.x = Math.PI/4;
             }.bind(this)
           );
     }
@@ -103,7 +114,14 @@ class SceneOne extends Component{
               let dist = new THREE.Vector2(v.x, v.y).sub(center);
               let size = 14.0;
               let magnitude = 150;
-              v.z = Math.sin(dist.length()/-size + (ts/100) + 0 / 2) * magnitude;
+              if(window.innerWidth <= 800){
+                size = 13.0;
+                magnitude = 80;
+                v.z = Math.sin(dist.length()/-size + (ts/100) + distance / 2) * magnitude;
+              }
+              else{
+                v.z = Math.sin(dist.length()/-size + (ts/100) + 0 / 2) * magnitude;
+              }
             }
             this.plane.geometry.verticesNeedUpdate = true;
             this.plane.geometry.normalsNeedUpdate = true;
@@ -135,24 +153,38 @@ class SceneOne extends Component{
     render(){
         return(
             <div>
-                <canvas id="image" className={canvas}></canvas>
-                <div id='container' className={container} onMouseMove={this.handleMove} onMouseLeave={this.handleOut}>
+                <canvas id="image" className={'canvas'}></canvas>
+                <div id='container' className={'container'} onMouseMove={this.handleMove} onMouseLeave={this.handleOut}>
                 </div>
+                <style jsx>
+                {`
+                    .container{
+                        position:relative;
+                        width:400px;
+                        height:400px;
+                    }
+
+                    .canvas{
+                        visibility:hidden;
+                        display: none;
+                    }
+
+                    @media (max-width: 800px) {
+                        .container{
+                            position:relative;
+                            width:300px;
+                            height:300px;
+                            margin-left: calc(50% - 150px);
+                        }
+                    }
+
+                `}
+                </style>
             </div>
         )
     }
 }
 
-const container =  css`
-    position:relative;
-    width:400px;
-    height:400px;
-`
-
-const canvas= css`
-    visibility:hidden;
-    display: none;
-`
 
 
 export default SceneOne;

@@ -1,10 +1,6 @@
 import React ,{Component} from 'react';
-import {css} from 'emotion';
 import * as THREE from 'three'
 import SimplexNoise from 'simplex-noise'
-// import * as Noise from './perlin';
-// window.THREE = THREE;
-// import 'three/examples/js/controls/TrackballControls';
 import {TweenMax} from "gsap";
 
 

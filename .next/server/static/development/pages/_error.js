@@ -112,7 +112,7 @@ module.exports = __webpack_require__(/*! next/error */ "next/error")
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Volumes/Macintosh HD/pizza3.github.io/node_modules/next/dist/pages/_error.js */"./node_modules/next/dist/pages/_error.js");
+module.exports = __webpack_require__(/*! /Users/yugamdhuriya/Documents/pizza3.github.io/node_modules/next/dist/pages/_error.js */"./node_modules/next/dist/pages/_error.js");
 
 
 /***/ }),

@@ -51,8 +51,8 @@ export default ({ children }) => (
 
     </Head>
     {/* <Global/> */}
-    <Nav />
-    <Footer />
+    {/* <Nav /> */}
+    {/* <Footer /> */}
     { children }
   </div>
 )

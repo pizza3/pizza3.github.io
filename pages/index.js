@@ -1,23 +1,12 @@
 import Page from '../layouts/main';
 import SceneOne from '../components/scenes/sceneOne';
-
-
-
+import Work from './work'
 export default () => (
    <Page>
         <div className={'container'}>
-            <div className={'headContainer'}>
-                <div className={'contLeft'}>
-                    <SceneOne/>
-                </div>
-                <div className={'contRight'}>
-                    Frontend developer From New Delhi, India
-                    Currently living in Chennai, making Stuff 
-                    with react, node, threes, & Aframe.  
-                    Interested in technologies such as AR/Vr,
-                    Want to become a creative developer.
-                </div>
-            </div>
+            <div className={'navHeader'}>yugam dhuriya</div>
+            <div className='navLink'>Work</div>
+            <Work/>
             <style jsx>
             {`
                 .container{
@@ -41,6 +30,16 @@ export default () => (
                     padding-top: 19vh;
                 }
 
+                .navHeader{
+                    position: relative;
+                    text-align:center;
+                    color: #292929;
+                    font-family: 'BebasNeue';
+                    font-size: 60px;
+                    margin-top: calc(50vh - 46px);
+                    cursor:pointer;
+                }
+
                 .contRight{
                     position: relative;
                     float: left;
@@ -53,6 +52,17 @@ export default () => (
                     padding-left: 6%;
                     padding-right: 33px;
                     line-height: 24px;
+                }
+
+                .navLink{
+                    position: relative;
+                    text-align:center;
+                    font-family: 'BebasNeue';
+                    color: #949494;
+                    font-size: 40px;
+                    font-style: italic;
+                    margin-top: 34vh;
+                    cursor:pointer;
                 }
 
                 @media (max-width: 800px) {

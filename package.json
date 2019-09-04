@@ -23,7 +23,7 @@
   "dependencies": {
     "emotion": "^9.2.12",
     "gsap": "^2.0.2",
-    "next": "^7.0.2",
+    "next": "^7.0.3",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "simplex-noise": "^2.4.0",

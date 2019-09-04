@@ -35,6 +35,8 @@ export default () => (
                     text-align:center;
                     color: #292929;
                     font-family: 'BebasNeue';
+                    font-weight: 900;
+                    font-style: italic;
                     font-size: 60px;
                     margin-top: calc(50vh - 46px);
                     cursor:pointer;

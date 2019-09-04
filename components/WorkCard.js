@@ -44,6 +44,7 @@ const WorkCard = (props) =>{
                     padding-right: 5%;
                     padding-left: 5%;
                     padding-top: 63px;
+                    box-shadow: 10px 10px 0px 2px rgba(0, 0, 0, 0.95);
                     transition:0.3s;
                 }
 
@@ -72,7 +73,6 @@ const WorkCard = (props) =>{
                     cursor: pointer;
                     background-blend-mode: screen;
                     margin-top: 25px;
-                    margin-left: 10%;
                 }
 
                 @media (max-width: 800px) {

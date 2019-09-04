@@ -3,7 +3,7 @@ const WorkCard = (props) =>{
     return(
         <div className='pro'>
             {props.type==='video'?
-            <video className='imgg' autoPlay={true} loop={true} src={props.src}/>
+            <video className='imgg' autoPlay={true} loop={true} mute={true} src={props.src}/>
             :
             <img className='imgg' src={props.src}/>
             }

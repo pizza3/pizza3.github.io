@@ -28,6 +28,15 @@ const Contact = () => {
             Message
           </button>
         </a>
+        <a
+          href="https://twitter.com/messages/compose?recipient_id=817282346801983488"
+          data-screen-name="@yugam_"
+        >
+          <button className={styles.contactButton}>
+            {twitter}
+            Message
+          </button>
+        </a>
       </div>
     </div>
   );

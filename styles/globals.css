@@ -1,0 +1,33 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+::selection {
+  color: rgb(255, 255, 255);
+  background: rgb(0, 247, 255);
+}
+
+@font-face {
+  font-family: MontDemoHeavy;
+  src: url("/pizza3.github.io/MontDemo-Heavy.otf") format("opentype");
+  font-display: swap;
+}

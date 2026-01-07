@@ -2,6 +2,8 @@ import styles from "../styles/Home.module.css";
 import Projects from "./Projects";
 import Experiments from "./Experiments";
 import Contact from "./Contact";
+console.log('styles', styles);
+
 const Home = () => {
   return (
     <>

@@ -10,7 +10,7 @@ export default function Layout({ children }) {
       </Head>
       <Navbar />
       {children}
-      <footer className={styles.footer}>©2021 Yugam Dhuriya</footer>
+      <footer className={styles.footer}>©2026 Yugam Dhuriya</footer>
     </div>
   );
 }

@@ -16,8 +16,8 @@ const Experiments = () => {
           <div
             className={styles.projimage}
             style={{
-              backgroundImage: `url(/${"set13"}.webp)`,
-              backgroundImage: `url(/${"set13"}.webp)`,
+              backgroundImage: `url(pizza3.github.io/${"set13"}.webp)`,
+              backgroundImage: `url(pizza3.github.io/${"set13"}.webp)`,
               flex: 3,
             }}
           />
@@ -38,8 +38,8 @@ const Experiments = () => {
             <div
               className={styles.projimage}
               style={{
-                backgroundImage: `url(/${"set11"}.webp)`,
-                backgroundImage: `url(/${"set11"}.webp)`,
+                backgroundImage: `url(pizza3.github.io/${"set11"}.webp)`,
+                backgroundImage: `url(pizza3.github.io/${"set11"}.webp)`,
                 flex: 1,
               }}
             />
@@ -57,8 +57,8 @@ const Experiments = () => {
             <div
               className={styles.projimage}
               style={{
-                backgroundImage: `url(/${"set10"}.webp)`,
-                backgroundImage: `url(/${"set10"}.webp)`,
+                backgroundImage: `url(pizza3.github.io/${"set10"}.webp)`,
+                backgroundImage: `url(pizza3.github.io/${"set10"}.webp)`,
                 flex: 1,
               }}
             />

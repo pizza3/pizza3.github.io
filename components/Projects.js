@@ -1,12 +1,14 @@
-import React from "react";
+"use client"
+import React, { useEffect } from "react";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import VanillaTilt from "vanilla-tilt";
 import Labels from "./Labels";
-function Tilt({ children, image }) {
-  const tiltRef = React.useRef();
+const tiltRef = React.createRef();
 
-  React.useEffect(() => {
+function Tilt({ children, image }) {
+
+  useEffect(() => {
     if (window.innerWidth < 814) return;
     const tiltNode = tiltRef.current;
     VanillaTilt.init(tiltNode, {
@@ -24,8 +26,8 @@ function Tilt({ children, image }) {
       ref={tiltRef}
       style={{
         transformStyle: "preserve-3d",
-        backgroundImage: `url(projects/${image}.webp)`,
-        backgroundImage: `url(projects/${image}.webp), linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,1) 90%)`,
+        backgroundImage: `url(pizza3.github.io/projects/${image}.webp)`,
+        backgroundImage: `url(pizza3.github.io/projects/${image}.webp), linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,1) 90%)`,
       }}
     >
       {children}
@@ -46,7 +48,7 @@ const Project = () => {
                 Create beautiful tessellations and symmetrical art, over 8
                 type's of symmetries and editing tools.
               </div>
-              <Labels data={["React", "Typescript", "Canvas"]} />
+              {/* <Labels data={["React", "Typescript", "Canvas"]} /> */}
             </div>
           </div>
         </Link>
@@ -60,7 +62,7 @@ const Project = () => {
                 Lmonix app lets you create WebVR prototype's and application's,
                 powered by Aframe and Threejs.
               </div>
-              <Labels data={["React", "Three.js", "Electron", "Node"]} />
+              {/* <Labels data={["React", "Three.js", "Electron", "Node"]} /> */}
             </div>
           </div>
         </Link>

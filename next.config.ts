@@ -10,10 +10,11 @@ const nextConfig: NextConfig = {
 
   /**
    * Set base path. This is usually the slug of your repository.
+   * Use "/" for development, "/pizza3.github.io" for production (GitHub Pages).
    *
    * @see https://nextjs.org/docs/app/api-reference/next-config-js/basePath
    */
-  basePath: "/pizza3.github.io",
+  basePath: process.env.NODE_ENV === "production" ? "/pizza3.github.io" : "",
 
   /**
    * Disable server-based image optimization. Next.js does not support

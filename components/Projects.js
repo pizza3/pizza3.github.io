@@ -17,7 +17,7 @@ function Tilt({ children, image }) {
       glare: true,
       "max-glare": 0.5,
     });
-    return () => tiltNode.vanillaTilt.destroy();
+    return () => tiltNode.vanillaTilt?.destroy();
   }, []);
 
   return (
@@ -26,8 +26,8 @@ function Tilt({ children, image }) {
       ref={tiltRef}
       style={{
         transformStyle: "preserve-3d",
-        backgroundImage: `url(pizza3.github.io/projects/${image}.webp)`,
-        backgroundImage: `url(pizza3.github.io/projects/${image}.webp), linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,1) 90%)`,
+        backgroundImage: `url(/projects/${image}.webp)`,
+        backgroundImage: `url(/projects/${image}.webp), linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,1) 90%)`,
       }}
     >
       {children}

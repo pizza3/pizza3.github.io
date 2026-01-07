@@ -2,6 +2,8 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 function Image({ name, image, date, url }) {
+  console.log('styles', styles);
+  
   return (
     <Link href={url}>
       <div className={styles.section}>

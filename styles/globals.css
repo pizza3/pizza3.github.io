@@ -28,6 +28,6 @@ a {
 
 @font-face {
   font-family: MontDemoHeavy;
-  src: url("/pizza3.github.io/MontDemo-Heavy.otf") format("opentype");
+  src: url("/MontDemo-Heavy.otf") format("opentype");
   font-display: swap;
 }

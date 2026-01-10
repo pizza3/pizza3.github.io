@@ -48,7 +48,7 @@
 }
 
 .section {
-  width: 48%;
+  width: 100%;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -58,6 +58,12 @@
   cursor: pointer;
   overflow: hidden;
   box-shadow: 0px 0px 47px -16px rgb(0 0 0 / 61%);
+}
+
+.parentSec {
+  width: 48%;
+  float: left;
+  margin-left: 2%;
 }
 
 .projects {

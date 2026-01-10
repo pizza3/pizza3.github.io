@@ -14,9 +14,11 @@ const Experiments = () => {
             Feel free to play around and explore.
           </div>
         </div>
-        {data.map((val, index) => {
-          return <Image key={index} {...val} />;
-        })}
+        <div style={{ width: '100%'}}>
+          {data.map((val, index) => {
+            return <Image key={index} {...val} />;
+          })}
+        </div>
       </main>
     </Layout>
   );
